@@ -1,4 +1,4 @@
-# YAGNI, DRY, KISS, TDA
+# 1. YAGNI, DRY, KISS, TDA
 ```c++
 YAGNI: Avoid unneeded features. // 簡單 乾淨 clean
 KISS: Simpler is better. // 簡單 乾淨 clean`
@@ -25,7 +25,7 @@ TDA: Let objects act, not expose. Encapsulation. // 對外簡單一個run or exe
   - **Advantage**: Improves **encapsulation**, reduces **coupling**, and encourages **object-oriented thinking**.  
   - **Example**: Instead of querying a `Cart` object for items and computing the total externally, the `Cart` class should provide a `calculateTotal()` method to handle the logic internally.
 
-# OOP 4 Characteristics
+# 2. OOP 4 Characteristics
 ```
 封裝（Encapsulation)
 繼承（Inheritance)
@@ -60,7 +60,7 @@ TDA: Let objects act, not expose. Encapsulation. // 對外簡單一個run or exe
   - **Example**: A `Payment` interface declares methods like `processPayment()` without specifying how the payment is processed, leaving the implementation to concrete classes like `CreditCardPayment` or `PayPalPayment`.
 
 
-# OOP SOLID 5 Princples 
+# 3. OOP SOLID 5 Princples 
 ```
 SRP — Single Responsibility Principle
 OCP — Open Closed Principle
